@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_habyyb_demo_app_next_1710752235386-pr-trigger-input-set
+  identifier: Build_habyyb_demo_app_next_1710752235386prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: DIP
+  pipeline:
+    identifier: Build_habyyb_demo_app_next_1710752235386
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
