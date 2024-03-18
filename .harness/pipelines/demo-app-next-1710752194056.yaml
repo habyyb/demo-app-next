@@ -40,7 +40,7 @@ pipeline:
                   type: Run
           platform:
             os: Linux
-            arch: Arm64
+            arch: Amd64
           runtime:
             type: Docker
             spec: {}
